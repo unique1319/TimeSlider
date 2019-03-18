@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## WRH TimeSlider
 
-You can use the [editor on GitHub](https://github.com/unique1319/TimeSlider/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+网上找不到在功能上合适的时间轴，所以自己动手写了一个。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+这个时间轴还有点小瑕疵，不过不影响正常使用。
 
-### Markdown
+点击这里查看 [DEMO](https://unique1319.github.io/TimeSlider/annoy/annoy.html)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 调用
 
+调用很简单，可以根据自己的需要灵活的传入参数
 ```markdown
-Syntax highlighted code block
+$('#slider').Annoy({}, function () {
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+    })
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/unique1319/TimeSlider/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+这个时间轴还比较粗糙，有需要的小伙伴可以拿去做二次开发。
